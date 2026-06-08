@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import api from '../api'
 import { useCart } from '../context/CartContext'
+import { useAuth } from '../context/AuthContext'
 import './Checkout.css'
 
 const CITIES = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose']
 
 export default function Checkout() {
+  const { user } = useAuth()
   const [step, setStep] = useState(1)
   const [tipValue, setTipValue] = useState(0)
   const [pwValue, setPwValue] = useState('')
@@ -21,6 +23,21 @@ export default function Checkout() {
     accept_terms: false, marketing_opt_in: false, create_account: false,
     account_password: '',
   })
+
+  // Pre-fill form with logged-in user data
+  useEffect(() => {
+    if (!user) return
+    setFormData(prev => ({
+      ...prev,
+      first_name: user.first_name || prev.first_name,
+      last_name:  user.last_name  || prev.last_name,
+      email:      user.email      || prev.email,
+      phone:      user.phone      || prev.phone,
+      card_name:  user.first_name && user.last_name
+        ? `${user.first_name} ${user.last_name}`
+        : prev.card_name,
+    }))
+  }, [user])
   const { cart, cartTotal, sessionId } = useCart()
   const navigate = useNavigate()
 
