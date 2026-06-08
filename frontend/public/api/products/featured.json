@@ -1,12 +1,202 @@
 [
-  { "id": 1, "name": "Wireless Noise-Cancelling Headphones", "slug": "wireless-headphones", "description": "Premium over-ear headphones with 30-hour battery life and active noise cancellation.", "price": 199.99, "original_price": 249.99, "stock": 45, "category_id": 1, "image_url": "https://placehold.co/400x300?text=Headphones", "sku": "ELEC-001", "is_featured": true, "created_at": "2026-01-01T00:00:00", "category": { "id": 1, "name": "Electronics", "slug": "electronics", "description": "Gadgets, devices, and tech accessories" } },
-  { "id": 3, "name": "4K Webcam", "slug": "4k-webcam", "description": "Ultra-HD webcam with auto-focus, built-in ring light, and noise-cancelling mic.", "price": 89.99, "original_price": 119.99, "stock": 60, "category_id": 1, "image_url": "https://placehold.co/400x300?text=Webcam", "sku": "ELEC-003", "is_featured": true, "created_at": "2026-01-03T00:00:00", "category": { "id": 1, "name": "Electronics", "slug": "electronics", "description": "Gadgets, devices, and tech accessories" } },
-  { "id": 5, "name": "Men's Classic Oxford Shirt", "slug": "mens-oxford-shirt", "description": "Slim-fit cotton Oxford shirt, available in 6 colours. Machine washable.", "price": 49.99, "original_price": 64.99, "stock": 120, "category_id": 2, "image_url": "https://placehold.co/400x300?text=OxfordShirt", "sku": "CLTH-001", "is_featured": true, "created_at": "2026-01-05T00:00:00", "category": { "id": 2, "name": "Clothing", "slug": "clothing", "description": "Fashion for men, women, and kids" } },
-  { "id": 7, "name": "Unisex Hoodie", "slug": "unisex-hoodie", "description": "Heavyweight 400gsm fleece hoodie with kangaroo pocket. Sizes XS–3XL.", "price": 59.99, "original_price": 74.99, "stock": 200, "category_id": 2, "image_url": "https://placehold.co/400x300?text=Hoodie", "sku": "CLTH-003", "is_featured": true, "created_at": "2026-01-07T00:00:00", "category": { "id": 2, "name": "Clothing", "slug": "clothing", "description": "Fashion for men, women, and kids" } },
-  { "id": 9, "name": "Artisan Coffee Blend 500g", "slug": "artisan-coffee-blend", "description": "Medium-roast single-origin Ethiopian coffee beans. Notes of blueberry and dark chocolate.", "price": 18.99, "original_price": null, "stock": 150, "category_id": 3, "image_url": "https://placehold.co/400x300?text=Coffee", "sku": "FOOD-001", "is_featured": true, "created_at": "2026-01-09T00:00:00", "category": { "id": 3, "name": "Food & Drinks", "slug": "food-drinks", "description": "Gourmet food and beverages" } },
-  { "id": 12, "name": "Cold Brew Coffee Kit", "slug": "cold-brew-kit", "description": "Everything you need to make smooth cold brew at home. Includes mason jar and filters.", "price": 34.99, "original_price": null, "stock": 40, "category_id": 3, "image_url": "https://placehold.co/400x300?text=ColdBrew", "sku": "FOOD-004", "is_featured": true, "created_at": "2026-01-12T00:00:00", "category": { "id": 3, "name": "Food & Drinks", "slug": "food-drinks", "description": "Gourmet food and beverages" } },
-  { "id": 13, "name": "Clean Code by Robert Martin", "slug": "clean-code", "description": "A handbook of agile software craftsmanship. Essential reading for every developer.", "price": 34.99, "original_price": 44.99, "stock": 50, "category_id": 4, "image_url": "https://placehold.co/400x300?text=CleanCode", "sku": "BOOK-001", "is_featured": true, "created_at": "2026-01-13T00:00:00", "category": { "id": 4, "name": "Books", "slug": "books", "description": "Fiction, non-fiction, and educational books" } },
-  { "id": 15, "name": "Atomic Habits", "slug": "atomic-habits", "description": "An easy and proven way to build good habits and break bad ones by James Clear.", "price": 16.99, "original_price": 21.99, "stock": 200, "category_id": 4, "image_url": "https://placehold.co/400x300?text=AtomicHabits", "sku": "BOOK-003", "is_featured": true, "created_at": "2026-01-15T00:00:00", "category": { "id": 4, "name": "Books", "slug": "books", "description": "Fiction, non-fiction, and educational books" } },
-  { "id": 18, "name": "Indoor Plant Trio", "slug": "indoor-plant-trio", "description": "Three low-maintenance potted plants perfect for offices and homes.", "price": 59.99, "original_price": null, "stock": 25, "category_id": 5, "image_url": "https://placehold.co/400x300?text=Plants", "sku": "HOME-002", "is_featured": true, "created_at": "2026-01-18T00:00:00", "category": { "id": 5, "name": "Home & Garden", "slug": "home-garden", "description": "Everything for your home and garden" } },
-  { "id": 20, "name": "Garden Tool Set Pro", "slug": "garden-tool-set-pro", "description": "8-piece stainless steel garden tool set with ergonomic handles.", "price": 79.99, "original_price": 99.99, "stock": 40, "category_id": 5, "image_url": "https://placehold.co/400x300?text=GardenTools", "sku": "HOME-004", "is_featured": true, "created_at": "2026-01-20T00:00:00", "category": { "id": 5, "name": "Home & Garden", "slug": "home-garden", "description": "Everything for your home and garden" } }
+  {
+    "id": 1,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "slug": "wireless-headphones",
+    "description": "Premium over-ear headphones with 30-hour battery life and active noise cancellation.",
+    "price": 199.99,
+    "original_price": 249.99,
+    "stock": 45,
+    "category_id": 1,
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
+    "sku": "ELEC-001",
+    "is_featured": true,
+    "created_at": "2026-01-01T00:00:00",
+    "category": {
+      "id": 1,
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Gadgets, devices, and tech accessories"
+    }
+  },
+  {
+    "id": 3,
+    "name": "4K Webcam",
+    "slug": "4k-webcam",
+    "description": "Ultra-HD webcam with auto-focus, built-in ring light, and noise-cancelling mic.",
+    "price": 89.99,
+    "original_price": 119.99,
+    "stock": 60,
+    "category_id": 1,
+    "image_url": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400&h=300&fit=crop",
+    "sku": "ELEC-003",
+    "is_featured": true,
+    "created_at": "2026-01-03T00:00:00",
+    "category": {
+      "id": 1,
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Gadgets, devices, and tech accessories"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Men's Classic Oxford Shirt",
+    "slug": "mens-oxford-shirt",
+    "description": "Slim-fit cotton Oxford shirt, available in 6 colours. Machine washable.",
+    "price": 49.99,
+    "original_price": 64.99,
+    "stock": 120,
+    "category_id": 2,
+    "image_url": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&h=300&fit=crop",
+    "sku": "CLTH-001",
+    "is_featured": true,
+    "created_at": "2026-01-05T00:00:00",
+    "category": {
+      "id": 2,
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Fashion for men, women, and kids"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Unisex Hoodie",
+    "slug": "unisex-hoodie",
+    "description": "Heavyweight 400gsm fleece hoodie with kangaroo pocket. Sizes XS\u20133XL.",
+    "price": 59.99,
+    "original_price": 74.99,
+    "stock": 200,
+    "category_id": 2,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=400&h=300&fit=crop",
+    "sku": "CLTH-003",
+    "is_featured": true,
+    "created_at": "2026-01-07T00:00:00",
+    "category": {
+      "id": 2,
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Fashion for men, women, and kids"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Artisan Coffee Blend 500g",
+    "slug": "artisan-coffee-blend",
+    "description": "Medium-roast single-origin Ethiopian coffee beans. Notes of blueberry and dark chocolate.",
+    "price": 18.99,
+    "original_price": null,
+    "stock": 150,
+    "category_id": 3,
+    "image_url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop",
+    "sku": "FOOD-001",
+    "is_featured": true,
+    "created_at": "2026-01-09T00:00:00",
+    "category": {
+      "id": 3,
+      "name": "Food & Drinks",
+      "slug": "food-drinks",
+      "description": "Gourmet food and beverages"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Cold Brew Coffee Kit",
+    "slug": "cold-brew-kit",
+    "description": "Everything you need to make smooth cold brew at home. Includes mason jar and filters.",
+    "price": 34.99,
+    "original_price": null,
+    "stock": 40,
+    "category_id": 3,
+    "image_url": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=300&fit=crop",
+    "sku": "FOOD-004",
+    "is_featured": true,
+    "created_at": "2026-01-12T00:00:00",
+    "category": {
+      "id": 3,
+      "name": "Food & Drinks",
+      "slug": "food-drinks",
+      "description": "Gourmet food and beverages"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Clean Code by Robert Martin",
+    "slug": "clean-code",
+    "description": "A handbook of agile software craftsmanship. Essential reading for every developer.",
+    "price": 34.99,
+    "original_price": 44.99,
+    "stock": 50,
+    "category_id": 4,
+    "image_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=300&fit=crop",
+    "sku": "BOOK-001",
+    "is_featured": true,
+    "created_at": "2026-01-13T00:00:00",
+    "category": {
+      "id": 4,
+      "name": "Books",
+      "slug": "books",
+      "description": "Fiction, non-fiction, and educational books"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Atomic Habits",
+    "slug": "atomic-habits",
+    "description": "An easy and proven way to build good habits and break bad ones by James Clear.",
+    "price": 16.99,
+    "original_price": 21.99,
+    "stock": 200,
+    "category_id": 4,
+    "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=300&fit=crop",
+    "sku": "BOOK-003",
+    "is_featured": true,
+    "created_at": "2026-01-15T00:00:00",
+    "category": {
+      "id": 4,
+      "name": "Books",
+      "slug": "books",
+      "description": "Fiction, non-fiction, and educational books"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Indoor Plant Trio",
+    "slug": "indoor-plant-trio",
+    "description": "Three low-maintenance potted plants perfect for offices and homes.",
+    "price": 59.99,
+    "original_price": null,
+    "stock": 25,
+    "category_id": 5,
+    "image_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
+    "sku": "HOME-002",
+    "is_featured": true,
+    "created_at": "2026-01-18T00:00:00",
+    "category": {
+      "id": 5,
+      "name": "Home & Garden",
+      "slug": "home-garden",
+      "description": "Everything for your home and garden"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Garden Tool Set Pro",
+    "slug": "garden-tool-set-pro",
+    "description": "8-piece stainless steel garden tool set with ergonomic handles.",
+    "price": 79.99,
+    "original_price": 99.99,
+    "stock": 40,
+    "category_id": 5,
+    "image_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
+    "sku": "HOME-004",
+    "is_featured": true,
+    "created_at": "2026-01-20T00:00:00",
+    "category": {
+      "id": 5,
+      "name": "Home & Garden",
+      "slug": "home-garden",
+      "description": "Everything for your home and garden"
+    }
+  }
 ]

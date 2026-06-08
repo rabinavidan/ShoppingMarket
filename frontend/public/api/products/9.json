@@ -7,7 +7,7 @@
   "original_price": null,
   "stock": 150,
   "category_id": 3,
-  "image_url": "https://placehold.co/400x300?text=Coffee",
+  "image_url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop",
   "sku": "FOOD-001",
   "is_featured": true,
   "created_at": "2026-01-09T00:00:00",
