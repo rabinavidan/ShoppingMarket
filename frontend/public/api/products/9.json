@@ -1,0 +1,30 @@
+{
+  "id": 9,
+  "name": "Artisan Coffee Blend 500g",
+  "slug": "artisan-coffee-blend",
+  "description": "Medium-roast Ethiopian coffee beans. Notes of blueberry and dark chocolate.",
+  "price": 18.99,
+  "original_price": null,
+  "stock": 150,
+  "category_id": 3,
+  "image_url": "https://placehold.co/400x300?text=Coffee",
+  "sku": "FOOD-001",
+  "is_featured": true,
+  "created_at": "2026-01-09T00:00:00",
+  "category": {
+    "id": 3,
+    "name": "Food & Drinks",
+    "slug": "food-drinks",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

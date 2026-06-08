@@ -1,0 +1,38 @@
+{
+  "id": 13,
+  "name": "Clean Code by Robert Martin",
+  "slug": "clean-code",
+  "description": "A handbook of agile software craftsmanship.",
+  "price": 34.99,
+  "original_price": 44.99,
+  "stock": 50,
+  "category_id": 4,
+  "image_url": "https://placehold.co/400x300?text=CleanCode",
+  "sku": "BOOK-001",
+  "is_featured": true,
+  "created_at": "2026-01-13T00:00:00",
+  "category": {
+    "id": 4,
+    "name": "Books",
+    "slug": "books",
+    "description": ""
+  },
+  "reviews": [
+    {
+      "id": 4,
+      "reviewer_name": "Dave",
+      "rating": 5,
+      "body": "Changed how I write code. A must-read.",
+      "created_at": "2026-02-04T00:00:00"
+    }
+  ],
+  "rating_avg": 5.0,
+  "rating_count": 1,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 1
+  }
+}

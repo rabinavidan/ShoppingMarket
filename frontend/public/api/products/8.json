@@ -1,0 +1,30 @@
+{
+  "id": 8,
+  "name": "Kids' Waterproof Jacket",
+  "slug": "kids-waterproof-jacket",
+  "description": "Lightweight windproof jacket for kids aged 3-12.",
+  "price": 34.99,
+  "original_price": null,
+  "stock": 0,
+  "category_id": 2,
+  "image_url": "https://placehold.co/400x300?text=KidsJacket",
+  "sku": "CLTH-004",
+  "is_featured": false,
+  "created_at": "2026-01-08T00:00:00",
+  "category": {
+    "id": 2,
+    "name": "Clothing",
+    "slug": "clothing",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

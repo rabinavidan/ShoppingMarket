@@ -1,0 +1,30 @@
+{
+  "id": 3,
+  "name": "4K Webcam",
+  "slug": "4k-webcam",
+  "description": "Ultra-HD webcam with auto-focus, built-in ring light, and noise-cancelling mic.",
+  "price": 89.99,
+  "original_price": 119.99,
+  "stock": 60,
+  "category_id": 1,
+  "image_url": "https://placehold.co/400x300?text=Webcam",
+  "sku": "ELEC-003",
+  "is_featured": true,
+  "created_at": "2026-01-03T00:00:00",
+  "category": {
+    "id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

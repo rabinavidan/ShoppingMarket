@@ -1,0 +1,30 @@
+{
+  "id": 2,
+  "name": "Mechanical Keyboard",
+  "slug": "mechanical-keyboard",
+  "description": "Compact TKL mechanical keyboard with Cherry MX switches and RGB backlight.",
+  "price": 129.99,
+  "original_price": null,
+  "stock": 30,
+  "category_id": 1,
+  "image_url": "https://placehold.co/400x300?text=Keyboard",
+  "sku": "ELEC-002",
+  "is_featured": false,
+  "created_at": "2026-01-02T00:00:00",
+  "category": {
+    "id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

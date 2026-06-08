@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Electronics", "slug": "electronics", "description": "Gadgets, devices, and tech accessories" },
+  { "id": 2, "name": "Clothing", "slug": "clothing", "description": "Fashion for men, women, and kids" },
+  { "id": 3, "name": "Food & Drinks", "slug": "food-drinks", "description": "Gourmet food and beverages" },
+  { "id": 4, "name": "Books", "slug": "books", "description": "Fiction, non-fiction, and educational books" },
+  { "id": 5, "name": "Home & Garden", "slug": "home-garden", "description": "Everything for your home and garden" }
+]

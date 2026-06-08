@@ -1,0 +1,30 @@
+{
+  "id": 16,
+  "name": "Python Crash Course",
+  "slug": "python-crash-course",
+  "description": "A hands-on intro to programming with Python 3.",
+  "price": 29.99,
+  "original_price": null,
+  "stock": 90,
+  "category_id": 4,
+  "image_url": "https://placehold.co/400x300?text=PythonBook",
+  "sku": "BOOK-004",
+  "is_featured": false,
+  "created_at": "2026-01-16T00:00:00",
+  "category": {
+    "id": 4,
+    "name": "Books",
+    "slug": "books",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

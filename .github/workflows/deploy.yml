@@ -33,6 +33,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: frontend
+        env:
+          VITE_STATIC_MODE: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

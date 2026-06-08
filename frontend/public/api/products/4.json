@@ -1,0 +1,30 @@
+{
+  "id": 4,
+  "name": "Portable SSD 1TB",
+  "slug": "portable-ssd-1tb",
+  "description": "Ultra-fast USB-C portable SSD with read speeds up to 1050 MB/s.",
+  "price": 109.99,
+  "original_price": null,
+  "stock": 5,
+  "category_id": 1,
+  "image_url": "https://placehold.co/400x300?text=SSD",
+  "sku": "ELEC-004",
+  "is_featured": false,
+  "created_at": "2026-01-04T00:00:00",
+  "category": {
+    "id": 1,
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

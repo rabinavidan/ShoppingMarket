@@ -1,0 +1,30 @@
+{
+  "id": 20,
+  "name": "Garden Tool Set Pro",
+  "slug": "garden-tool-set-pro",
+  "description": "8-piece stainless steel garden tool set with ergonomic handles.",
+  "price": 79.99,
+  "original_price": 99.99,
+  "stock": 40,
+  "category_id": 5,
+  "image_url": "https://placehold.co/400x300?text=GardenTools",
+  "sku": "HOME-004",
+  "is_featured": true,
+  "created_at": "2026-01-20T00:00:00",
+  "category": {
+    "id": 5,
+    "name": "Home & Garden",
+    "slug": "home-garden",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

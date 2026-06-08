@@ -1,0 +1,30 @@
+{
+  "id": 18,
+  "name": "Indoor Plant Trio",
+  "slug": "indoor-plant-trio",
+  "description": "Three low-maintenance potted plants for offices and homes.",
+  "price": 59.99,
+  "original_price": null,
+  "stock": 25,
+  "category_id": 5,
+  "image_url": "https://placehold.co/400x300?text=Plants",
+  "sku": "HOME-002",
+  "is_featured": true,
+  "created_at": "2026-01-18T00:00:00",
+  "category": {
+    "id": 5,
+    "name": "Home & Garden",
+    "slug": "home-garden",
+    "description": ""
+  },
+  "reviews": [],
+  "rating_avg": 0.0,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}
