@@ -134,3 +134,14 @@ class Wishlist(Base):
 
     user = relationship("User", back_populates="wishlist")
     product = relationship("Product", back_populates="wishlist_entries")
+
+
+class Coupon(Base):
+    __tablename__ = "coupons"
+
+    id = Column(Integer, primary_key=True, index=True)
+    code = Column(String, unique=True, index=True, nullable=False)
+    discount_type = Column(String, nullable=False)  # "percent" or "fixed"
+    discount_value = Column(Float, nullable=False)
+    description = Column(String, default="")
+    is_active = Column(Boolean, default=True)
