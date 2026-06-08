@@ -1,5 +1,6 @@
 const LIVE_BASE = '/api'
-const STATIC_BASE = '/api'  // public/api/*.json served by Pages
+// BASE_URL is '/' in dev and '/ShoppingMarket/' on GitHub Pages (set by vite base)
+const STATIC_BASE = import.meta.env.BASE_URL + 'api'
 
 const isStatic = import.meta.env.VITE_STATIC_MODE === 'true'
 
