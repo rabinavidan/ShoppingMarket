@@ -1,0 +1,30 @@
+{
+  "id": 27,
+  "name": "Ruby Cocktail Ring",
+  "slug": "ruby-cocktail-ring",
+  "description": "2.5 carat oval natural ruby with diamond side stones in 18k rose gold. Statement piece.",
+  "price": 1299.99,
+  "original_price": null,
+  "stock": 6,
+  "category_id": 6,
+  "image_url": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=400&h=300&fit=crop",
+  "sku": "JWL-007",
+  "is_featured": false,
+  "created_at": "2026-01-27T00:00:00",
+  "category": {
+    "id": 6,
+    "name": "Jewelry & Diamonds",
+    "slug": "jewelry-diamonds",
+    "description": "Fine jewelry, diamonds, and luxury accessories"
+  },
+  "reviews": [],
+  "rating_avg": 4.8,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

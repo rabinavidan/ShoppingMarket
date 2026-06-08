@@ -5,11 +5,12 @@ import { useCart } from '../context/CartContext'
 import './Home.css'
 
 const CATEGORIES = [
-  { id: 1, name: 'Electronics', emoji: '💻', color: '#3b82f6' },
-  { id: 2, name: 'Clothing',    emoji: '👕', color: '#8b5cf6' },
-  { id: 3, name: 'Food & Drinks', emoji: '☕', color: '#f59e0b' },
-  { id: 4, name: 'Books',       emoji: '📚', color: '#10b981' },
-  { id: 5, name: 'Home & Garden', emoji: '🌿', color: '#ef4444' },
+  { id: 1, name: 'Electronics',      emoji: '💻', color: '#3b82f6' },
+  { id: 2, name: 'Clothing',         emoji: '👕', color: '#8b5cf6' },
+  { id: 3, name: 'Food & Drinks',    emoji: '☕', color: '#f59e0b' },
+  { id: 4, name: 'Books',            emoji: '📚', color: '#10b981' },
+  { id: 5, name: 'Home & Garden',    emoji: '🌿', color: '#ef4444' },
+  { id: 6, name: 'Jewelry & Diamonds', emoji: '💎', color: '#ec4899' },
 ]
 
 const HERO_SLIDES = [

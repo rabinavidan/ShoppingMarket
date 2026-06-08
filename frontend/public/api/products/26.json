@@ -1,0 +1,30 @@
+{
+  "id": 26,
+  "name": "Diamond Pendant Necklace",
+  "slug": "diamond-pendant-necklace",
+  "description": "0.5 carat princess-cut diamond pendant in platinum. Includes 18-inch platinum chain.",
+  "price": 999.99,
+  "original_price": 1199.99,
+  "stock": 10,
+  "category_id": 6,
+  "image_url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop",
+  "sku": "JWL-006",
+  "is_featured": true,
+  "created_at": "2026-01-26T00:00:00",
+  "category": {
+    "id": 6,
+    "name": "Jewelry & Diamonds",
+    "slug": "jewelry-diamonds",
+    "description": "Fine jewelry, diamonds, and luxury accessories"
+  },
+  "reviews": [],
+  "rating_avg": 4.8,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

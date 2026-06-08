@@ -1,0 +1,30 @@
+{
+  "id": 24,
+  "name": "Sapphire & Diamond Earrings",
+  "slug": "sapphire-diamond-earrings",
+  "description": "Natural blue sapphire drop earrings with diamond halo, set in 14k yellow gold.",
+  "price": 799.99,
+  "original_price": null,
+  "stock": 12,
+  "category_id": 6,
+  "image_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=300&fit=crop",
+  "sku": "JWL-004",
+  "is_featured": false,
+  "created_at": "2026-01-24T00:00:00",
+  "category": {
+    "id": 6,
+    "name": "Jewelry & Diamonds",
+    "slug": "jewelry-diamonds",
+    "description": "Fine jewelry, diamonds, and luxury accessories"
+  },
+  "reviews": [],
+  "rating_avg": 4.8,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}

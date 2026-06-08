@@ -1,0 +1,30 @@
+{
+  "id": 22,
+  "name": "Gold Pearl Necklace",
+  "slug": "gold-pearl-necklace",
+  "description": "Freshwater pearl strand necklace with 18k gold clasp. 18-inch length, 8\u20139mm pearls.",
+  "price": 349.99,
+  "original_price": null,
+  "stock": 20,
+  "category_id": 6,
+  "image_url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop",
+  "sku": "JWL-002",
+  "is_featured": true,
+  "created_at": "2026-01-22T00:00:00",
+  "category": {
+    "id": 6,
+    "name": "Jewelry & Diamonds",
+    "slug": "jewelry-diamonds",
+    "description": "Fine jewelry, diamonds, and luxury accessories"
+  },
+  "reviews": [],
+  "rating_avg": 4.8,
+  "rating_count": 0,
+  "rating_distribution": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  }
+}
