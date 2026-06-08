@@ -1,0 +1,89 @@
+.products-page { padding: 1.5rem 0; }
+
+.products-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.filter-sidebar {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  position: sticky;
+  top: 80px;
+}
+.filter-sidebar h3 { margin-bottom: 1rem; }
+.filter-sidebar fieldset { margin-bottom: 1rem; }
+.filter-sidebar fieldset:last-of-type { margin-bottom: 0; }
+
+.checkbox-row { margin-bottom: 0.4rem; }
+.checkbox-row label { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; font-weight: normal; }
+.radio-group { display: flex; flex-direction: column; gap: 0.4rem; }
+.radio-label { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; font-weight: normal; }
+
+.filter-actions { display: flex; gap: 0.5rem; margin-top: 1rem; }
+.filter-actions button { flex: 1; }
+
+.products-header { margin-bottom: 1rem; }
+.results-count { font-size: 0.9rem; }
+
+.products-grid { }
+
+.product-card .rating-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+.product-card .rating-row meter { flex: 1; }
+.product-card .stars { font-size: 0.85rem; color: var(--accent); white-space: nowrap; }
+.product-card .stock-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.product-card .stock-row progress { flex: 1; }
+
+.compare-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  flex-wrap: wrap;
+}
+.card-actions button { flex: 1; font-size: 0.85rem; padding: 0.4rem 0.6rem; }
+
+.pagination {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.pagination button { min-width: 40px; }
+
+.empty-state { padding: 3rem 1rem; }
+
+.comparison-section { }
+.comparison-section h3 { margin-bottom: 1rem; }
+.table-wrapper { overflow-x: auto; }
+
+@media (max-width: 900px) {
+  .products-layout { grid-template-columns: 1fr; }
+  .filter-sidebar { position: static; }
+}
