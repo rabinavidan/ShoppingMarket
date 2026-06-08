@@ -69,6 +69,31 @@ function mockPost(path, body) {
     return Promise.resolve({ valid: false, detail: 'Invalid coupon code' })
   }
 
+  if (path === '/orders') {
+    const cartRaw = localStorage.getItem('static_cart')
+    const cart = cartRaw ? JSON.parse(cartRaw) : { items: [], subtotal: 0 }
+    const orderId = Date.now()
+    const order = {
+      id: orderId,
+      status: 'confirmed',
+      payment_method: body.payment_method || 'card',
+      notes: body.notes || '',
+      shipping_address: body.shipping_address || {},
+      created_at: new Date().toISOString(),
+      items: (cart.items || []).map((item, i) => ({
+        id: i + 1,
+        product_id: item.product_id || item.id,
+        quantity: item.quantity,
+        unit_price: item.price || item.unit_price || 0,
+        product: { name: item.name || item.product?.name || `Product #${item.product_id || item.id}` },
+      })),
+      total_amount: cart.subtotal || 0,
+    }
+    localStorage.setItem(`order_${orderId}`, JSON.stringify(order))
+    localStorage.removeItem('static_cart')
+    return Promise.resolve(order)
+  }
+
   // Generic: return success stub
   return Promise.resolve({ success: true, detail: 'Demo mode — changes not saved' })
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import api from '../api'
+import api, { isStatic } from '../api'
 import './Confirmation.css'
 
 export default function Confirmation() {
@@ -10,6 +10,12 @@ export default function Confirmation() {
   const canvasRef = useRef(null)
 
   useEffect(() => {
+    if (isStatic) {
+      const stored = localStorage.getItem(`order_${orderId}`)
+      setOrder(stored ? JSON.parse(stored) : null)
+      setLoading(false)
+      return
+    }
     api.get(`/orders/${orderId}`)
       .then(data => { setOrder(data); setLoading(false) })
       .catch(() => setLoading(false))
